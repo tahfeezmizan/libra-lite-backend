@@ -8,7 +8,7 @@ const createBorrow = async (req: Request, res: Response): Promise<void> => {
 
     const findBook = await Book.findById(book);
 
-    // Handle the case where the book is not found
+    // If book does not exist, return a 404 error
     if (!findBook) {
       res.status(404).json({
         message: "Borrow creation failed",

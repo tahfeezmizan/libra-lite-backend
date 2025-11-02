@@ -1,9 +1,9 @@
-# Library Management API
+# LibraLite Library Management API
 
 ## Live Link
 
 ```bash
-https://assignment-3-0-gules.vercel.app/api/books
+https://
 ```
 
 A simple and efficient **RESTful API** built using **Node.js**, **Express**, and **MongoDB** to manage a library system. This system allows users to manage books and borrowing operations, with features like CRUD operations, filtering, sorting, and aggregation of borrowed records.
@@ -47,11 +47,11 @@ src/
 ## Installation
 
 ```bash
-git clone https://github.com/muhammadranju/library-management-api.git
+git clone https://github.com/tahfeezmizan/libra-lite-backend.git
 ```
 
 ```bash
-cd library-management-api
+cd libra-lite-backend
 ```
 
 ```bash
