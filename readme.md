@@ -3,7 +3,7 @@
 ## Live Link
 
 ```bash
-https://
+https:// https://libra-lite-backend.vercel.app/api/
 ```
 
 A simple and efficient **RESTful API** built using **Node.js**, **Express**, and **MongoDB** to manage a library system. This system allows users to manage books and borrowing operations, with features like CRUD operations, filtering, sorting, and aggregation of borrowed records.
