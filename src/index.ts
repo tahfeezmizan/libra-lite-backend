@@ -16,6 +16,7 @@ app.use([express.json(), express.urlencoded({ extended: true })]);
 app.use(
   cors({
     origin: [
+      "https://libra-lite-frontend.vercel.app",
       "http://localhost:5174",
       "http://localhost:5173",
     ], // Or wherever your React app runs
